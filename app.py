@@ -78,7 +78,7 @@ dept_subjects = {
 
 # --- 4. SIDEBAR NAVIGATION ---
 with st.sidebar:
-    st.markdown("<h2 style='text-align: center; color: #3b82f6;'>ELITE PORTAL</h2>", unsafe_allow_html=True)
+    st.markdown("<h2 style='text-align: center; color: #3b82f6;'>PORTAL</h2>", unsafe_allow_html=True)
     selected = option_menu(
         menu_title=None, 
         options=["Dashboard", "AI Predictor", "Search"],
