@@ -162,7 +162,7 @@ elif selected == "Search":
     if reg_no:
         result = df[df['Register_No'].astype(str) == reg_no]
         if not result.empty:
-            st.write(f"### 🌈 Academic Profile: {result['Name'].values[0]}")
+            st.write(f"### Academic Profile: {result['Name'].values[0]}")
 
             # Define Traffic-Light Performance Zones
             def apply_performance_zones(val):
@@ -186,7 +186,7 @@ elif selected == "Search":
             st.dataframe(styled_profile, use_container_width=True)
             
             # --- DOWNLOAD OPTION ---
-            st.markdown("### 📥 Export Student Data")
+            st.markdown("### Export Student Data")
             csv_data = result.to_csv(index=False).encode('utf-8')
             
             st.download_button(
