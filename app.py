@@ -4,7 +4,7 @@ import plotly.express as px
 from streamlit_option_menu import option_menu
 
 # --- 1. PAGE CONFIG ---
-st.set_page_config(page_title="EduVision Elite Portal", layout="wide", page_icon="🎓")
+st.set_page_config(page_title="LogiScholar", layout="wide", page_icon="🎓")
 
 # --- 2. THEME & VISIBILITY STYLING (Professional Light Theme) ---
 st.markdown("""
