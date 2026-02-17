@@ -1,4 +1,4 @@
 pandas
 plotly
 streamlit
-streamlit-option_menu
+streamlit-option-menu
